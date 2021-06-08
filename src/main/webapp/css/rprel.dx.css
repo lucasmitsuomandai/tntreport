@@ -1,0 +1,264 @@
+/* HEADER */
+.rprel .form-horizontal label {
+	text-align: left;
+	padding-top: 0;
+	margin-top: 0;
+}
+.rprel .form-horizontal .col-rprel {
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* UTILS */
+.rprel-rotate-45deg {
+	transform: rotate(45deg);
+}
+.rprel-rotate-90deg {
+	transform: rotate(90deg);
+}
+.rprel-rotate-135deg {
+	transform: rotate(135deg);
+}
+.rprel-rotate-180deg {
+	transform: rotate(180deg);
+}
+.rprel-rotate-225deg {
+	transform: rotate(225deg);
+}
+.rprel-rotate-270deg {
+	transform: rotate(270deg);
+}
+.rprel-rotate-315deg {
+	transform: rotate(315deg);
+}
+/* ALL GRID */
+.rprel-custm .dx-save-state-button .dx-button-mode-outlined {
+	background-color: #337ab7;
+    border-color: transparent;
+    color: #fff;
+}
+.rprel-custm .dx-save-state-button .dx-button-mode-outlined.dx-state-hover {
+	background-color: #296293;
+}
+.rprel-custm .dx-save-state-button .dx-button-mode-outlined.dx-state-focused {
+	background-color: #265a87;
+}
+.rprel-custm .dx-save-state-button .dx-button-mode-outlined.dx-state-active {
+	background-color: #193d5b;
+}
+.rprel-custm .dx-save-state-button .dx-button-mode-outlined .dx-icon {
+	color: #fff;
+}
+.dx-components-tnt .dx-dropdownbutton-action.dx-button .dx-button-content {
+	padding: 5px;
+}
+.dx-components-tnt .dx-dropdownbutton-toggle.dx-button .dx-button-content {
+	padding-left: 0;
+	padding-right: 0;
+}
+.dx-components-tnt .dx-filter-data-button .dx-icon {
+	font-size: 12px;
+}
+.dx-components-tnt .dx-save-state-button .dx-icon-save {
+	font-size: 16px;
+}
+.dx-components-tnt .dx-chart-button .dx-icon {
+	font-size: 16px;
+}
+.dx-components-tnt .dx-button .dx-icon-column-chooser,
+.dx-components-tnt .dx-button .dx-icon-columnchooser {
+	font-size: 16px;
+}
+.dx-components-tnt .dx-icon-export-excel-button,
+.dx-components-tnt .dx-icon-xlsxfile {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABmJLR0QA/wD/AP+gvaeTAAABeElEQVRIidWWv0oEMRDGf1lPDixU8BrXTosT5YrzLE6wEyufQxBs9UF8Akt9CBsb0fJqW0sRVPQO/BOLzEI2m0jiLgcODNn5dma+2TA7iSJecmDgaB4b3ApgXUm0AWwCQ6CTUJQ36RDoW9oD2nWS+kQBegrxd9MiIqtBkiRNEClLJ46tCie3656BbylgwcInwFieF+0EKaItPRZsBri38D3Bd6WQAnfjf9OS8QQsSYIjwa7FbgEjN/ivRBo4kwRt4AHYEfvEF+zZndCOVYI/MBMBYF/WHHhpmkgDV47zRcAvFF/RUHtnlDvrPeCXJC77G7Am7w5k7QCPHl9frlD+SvCpOKwAr8C62IdNEo2AWXE4F+xS7Ay48RAlt/cnsC3BXUz3acwPuiV4z8KTiOzp+4VpYTD/0Jz1+WPMGAKYx0wOqI4iHcAaOY+iiHxHeaq4hXoL/1fnUYzcKupdTqLPJZ9jcd0qrloDwtetWkQhv1XKX94HlmOJfgBdwLbrAgaB3wAAAABJRU5ErkJggg==');
+}
+.dx-components-tnt .dx-icon-export-excel-button:before,
+.dx-components-tnt .dx-icon-xlsxfile:before {
+	content: ""
+}
+.dx-components-tnt .btn-height-grid.btn-height-window .dx-icon {
+	transform: rotate(90deg);
+}
+.dx-components-tnt .dx-popover-links .dx-popup-content {
+	padding: 0;
+}
+.dx-popover-links .dx-popup-content {
+	padding: 0;
+}
+.dx-popover-links .dx-scrollview-links .dx-scrollable-content {
+	padding: 10px;
+}
+
+/* DATA GRID */
+.dx-datagrid-tnt .dx-datagrid .dx-row > td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.dx-datagrid-tnt .dx-datagrid-table .dx-row .dx-command-expand.dx-datagrid-group-space {
+    padding-top: 3px;
+}
+.dx-widget .cell-link,
+.dx-widget .cell-link:hover {
+	cursor: pointer;
+	color: #337ab7;
+}
+.dx-widget .cell-link:hover {
+	text-decoration: underline;
+}
+.dx-widget .cell-link a {
+	display: block;
+}
+
+.dx-grid-column-link-list {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}
+.dx-grid-column-link-list li {
+	padding: 7px 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+.dx-grid-column-link-list li:last-child {
+	border-bottom: none;
+}
+.dx-grid-column-link-list a {
+	white-space: nowrap;
+}
+.dx-datagrid .dx-cell-icon {
+	line-height: 16px;
+	font-size: 24px;
+	vertical-align: top;
+}
+.dx-datagrid .dx-datagrid-rowsview .dx-row > .dx-master-detail-cell {
+	padding: 15px;
+	padding-bottom: 5px;
+}
+.dx-master-detail-cell .dx-datagrid-pager {
+	background-color: #FAFAFA;
+}
+.dx-datagrid .dx-datagrid-group-opened,
+.dx-datagrid .dx-datagrid-group-closed {
+    width: 100%;
+    height: 20px;
+    background-size: 20px 20px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.dx-datagrid-header-filters-applied:not(:empty):before,
+.dx-pivotgrid-header-filters-applied:not(:empty):before {
+	content: "Filtro: "
+}
+.dx-scrollable-customizable-scrollbars ::-webkit-scrollbar-thumb {
+	background-color: #C1C1C1;
+}
+.dx-button-grid-header {
+/* 	margin: 0 0 0 5px; */
+}
+/* ALTERADO A COR DA LINHA SELECIONADA, PARA FICAR IGUAL AO focusedRowEnabled */
+.dx-datagrid-rowsview .dx-selection.dx-row > td, .dx-datagrid-rowsview .dx-selection.dx-row:hover > td, .dx-datagrid-rowsview .dx-selection.dx-row > tr > td, .dx-datagrid-rowsview .dx-selection.dx-row:hover > tr > td {
+/*     background-color: #337ab7; */
+/*     color: #fff; */
+}
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-lines) > td, .dx-datagrid-rowsview .dx-selection.dx-row:hover:not(.dx-row-lines) > td, .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td, .dx-datagrid-rowsview .dx-selection.dx-row:hover:not(.dx-row-focused) > td {
+/*     border-top: 1px solid #337ab7; */
+/*     border-bottom: 1px solid #337ab7; */
+}
+.dx-datagrid-header-filters-applied {
+	color: #959595;
+}
+.dx-datagrid-grid-settings-popup .dx-overlay-content .dx-popup-title {
+    padding-top: 7px;
+    padding-bottom: 9px;
+    background-color: transparent;
+}
+.dx-datagrid-grid-settings-popup .dx-overlay-content .dx-popup-title {
+	border-bottom: none;
+}
+.dx-datagrid-grid-settings-popup .dx-overlay-content .dx-popup-title.dx-toolbar .dx-toolbar-label {
+	font-size: 16px;
+}
+.dx-datagrid-grid-settings-popup .dx-popup-content {
+	padding: 0px 20px 20px 20px;
+}
+.dx-datagrid-nopaging .dx-pages .dx-info {
+	margin-right: 1px;
+}
+.dx-datagrid-nopaging .dx-pages .dx-page {
+	display: none;
+}
+.dx-item-expand-all,
+.dx-item-collapse-all {
+	display: none;
+}
+.dx-columns-grouped .dx-item-expand-all,
+.dx-columns-grouped .dx-item-collapse-all {
+	display: table-cell;
+}
+.dx-datagrid-tnt .dx-datagrid-content .dx-datagrid-table .dx-row .dx-command-expand { /* DIMINUI A MARGEM ESQUEDA DAS COLUNAS AGRUPADAS */
+	width: 15px;
+	min-width: 15px;
+	max-width: 15px;
+}
+/* PIVOT GRID */
+.dx-pivotgrid .dx-column-header .dx-pivotgrid-toolbar .dx-pivotgrid-buttons-rprel:NOT(:LAST-CHILD),
+.dx-pivotgrid .dx-filter-header .dx-pivotgrid-toolbar .dx-pivotgrid-buttons-rprel:NOT(:LAST-CHILD) {
+    margin-right: 4px;
+}
+.dx-pivotgrid .dx-column-header .dx-pivotgrid-toolbar .dx-pivotgrid-buttons-rprel:LAST-CHILD,
+.dx-pivotgrid .dx-filter-header .dx-pivotgrid-toolbar .dx-pivotgrid-buttons-rprel:LAST-CHILD {
+    margin-right: 0px;
+}
+.dx-pivotgrid .dx-column-header .dx-pivotgrid-toolbar .dx-dropdownbutton,
+.dx-pivotgrid .dx-filter-header .dx-pivotgrid-toolbar .dx-dropdownbutton {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+.dx-pivotgrid .dx-column-header .dx-pivotgrid-toolbar .dx-dropdownbutton .dx-button,
+.dx-pivotgrid .dx-filter-header .dx-pivotgrid-toolbar .dx-dropdownbutton .dx-button {
+    margin-top: 0;
+}
+.dx-pivotgrid-tnt + .dx-chart-tnt {
+	margin-top: 50px;
+}
+.dx-pivot-grid-chart-integrated .dx-chart-button.dx-button-mode-contained {
+	background-color: #337ab7;
+    border-color: transparent;
+    color: #fff;
+}
+.dx-pivot-grid-chart-integrated .dx-chart-button.dx-button-mode-contained.dx-state-hover {
+	background-color: #296293;
+}
+.dx-pivot-grid-chart-integrated .dx-chart-button.dx-button-mode-contained.dx-state-focused {
+	background-color: #265a87;
+}
+.dx-pivot-grid-chart-integrated .dx-chart-button.dx-button-mode-contained.dx-state-active {
+	background-color: #193d5b;
+}
+.dx-pivot-grid-chart-integrated .dx-chart-button.dx-button-mode-contained .dx-icon {
+	color: #fff;
+}
+
+/* DEVEXTREME HTML EDITOR */
+.dx-popup-content .footer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 20px;
+	padding: 10px 15px;
+}
+
+/* POPUP */
+.rprel-popup-scroll .dx-scrollview-content {
+	padding-top: 3px;
+}
+.dx-scrollview-content * {
+	margin: 0;
+}
+
+/* SCHEDULER */
+.dx-scheduler-all-day-appointments .dx-scheduler-all-day-appointment-tnt {
+	height: 20px !important;
+}
