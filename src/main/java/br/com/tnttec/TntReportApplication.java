@@ -10,4 +10,8 @@ public class TntReportApplication {
 		SpringApplication.run(TntReportApplication.class, args);
 	}
 
+	@RequestMapping(value = "/hello")
+	public String helloWorld(){
+		return "Hello, World";
+	}
 }
