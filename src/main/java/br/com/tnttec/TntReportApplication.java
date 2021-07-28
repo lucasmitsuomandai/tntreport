@@ -15,6 +15,6 @@ public class TntReportApplication {
 
 	@GetMapping(value = "/hello")
 	public String helloWorld(){
-		return "Hello, World";
+		return "Welcome to the new age";
 	}
 }
